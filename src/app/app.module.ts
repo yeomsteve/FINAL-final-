@@ -41,6 +41,7 @@ import { GraphicDesignComponent } from './graphic-design/graphic-design.componen
 import { PortfolioLightboxComponent } from './portfolio-lightbox/portfolio-lightbox.component';
 import { IndesignComponent } from './indesign/indesign.component';
 import { NeighborhoodComponent } from './neighborhood/neighborhood.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   imports: [
@@ -60,6 +61,7 @@ import { NeighborhoodComponent } from './neighborhood/neighborhood.component';
       { path: 'graphic', component: GraphicDesignComponent },
        { path: 'indesign', component: IndesignComponent },
        { path: 'neighborhood', component: NeighborhoodComponent },
+       { path: 'contact', component: ContactComponent },
     ])
   ],
   declarations: [
@@ -74,7 +76,8 @@ import { NeighborhoodComponent } from './neighborhood/neighborhood.component';
     GraphicDesignComponent,
     PortfolioLightboxComponent,
     IndesignComponent,
-    NeighborhoodComponent
+    NeighborhoodComponent,
+    ContactComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
